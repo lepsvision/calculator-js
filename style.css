@@ -6,7 +6,7 @@
 body{
     padding: 0;
     margin: 0;
-    background: linear-gradient(to right, #00AAff, #00ff6c);
+    background: linear-gradient(to right, #ffbb00ef, #00ffc8);
 }
 .calculator-grid{
     display: grid;
@@ -14,16 +14,16 @@ body{
     align-items: center;
     min-height: 100vh;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(120px, auto) repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
 }
 .calculator-grid > button {
     cursor: pointer;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-width: 0;
     font-size: 15px;
-    margin: 15px;
+    margin: 10px;
     outline: none;
     background-color: #eaedef;
     font-weight: bold;
@@ -67,17 +67,17 @@ button:nth-child(4){
 
 button:nth-child(8){
     font-size: 20px;
-    background-color: #ffa500;
+    background-color: #fed95c;
 }
 button:nth-child(12){
     font-size: 20px;
-    background-color: #f08080;
+    background-color: #fa6e57;
 }
 button:nth-child(16){
     font-size: 20px;
-    background-color: #7d93e0;
+    background-color: #f69e53;
 }
 button:nth-child(20){
     font-size: 20px;
-    background-color: #9477af;
+    background-color: #ffa500;
 }
